@@ -10,6 +10,8 @@ import {
 } from "./citaSlice";
 import { obtenerMensaje } from "./utils";
 
+//Componente a testear
+
 function Cita() {
   const [valorInput, setValorInput] = useState("");
   const { cita = "", personaje = "" } =
